@@ -1,0 +1,62 @@
+.card {
+    height: 80%;
+    width: 80%;
+    padding: 15px;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.main-info-block {
+    text-align: center;
+    align-items: center;
+    
+}
+
+.sub-title {
+    font-size: medium;
+}
+
+.input {
+    width: 250px;
+}
+
+.info-block {
+    margin: 15px;
+}
+
+.content-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    margin: 10px;
+}
+
+.btn-100 {
+    width: 100px;
+}
+
+.btn-300 {
+    width: 300px;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1440px) {
+
+    .form {
+        padding: 40px;
+        height: 90%;
+        width: 70%;
+        margin-top: 10px;
+    }
+}

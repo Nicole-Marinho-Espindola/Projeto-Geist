@@ -1,0 +1,49 @@
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    height: 350px;
+    width: 20%;
+    padding: 30px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.input-size {
+    width: 65%;
+}
+
+@media (max-width:768px) {
+
+    .card {
+        height: 40%;
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .card {
+        width: 90%;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .card {
+        height: 40%;
+        width: 60%;
+    }
+}
+
+@media (max-width:425px) {
+
+    .card {
+        height: 35%;
+        width: 90%;
+    }
+}

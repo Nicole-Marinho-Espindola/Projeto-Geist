@@ -1,0 +1,179 @@
+
+/* Menu Principal */
+.menu {
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+
+    color: #A164C7;
+}
+
+
+/* Barra de navegação */
+.nav-bar {
+
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+
+    padding: 15px;
+    width: 100%;
+
+    background-color: black;
+    color: white;
+
+}
+
+.nav-bar .cadastro {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-bar .btn-nav {
+    border: 2px solid #A164C7;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.nav-bar .cadastro > .btn-nav:hover{
+    background-color: #A164C7;
+}
+
+.nav-bar .cadastro > .btn-nav:hover
+{
+    color: white !important;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-block {
+    width: 50% ;
+    height: 35px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 10% 90%;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0px 15px;
+}
+
+.search-icon-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon-block i {
+    color: #000;
+}
+
+.search-text {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.search-text:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.search-block:hover {
+    border: 2px solid #A164C7;
+}
+
+.logo {
+    height: 90px;
+    margin-left: 20%;
+}
+
+.sub-navbar {
+
+    display: flex;
+    padding: 20px 30%;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #141414;
+
+    font-size: small;
+}
+
+.sub-navbar p {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px){
+    .nav-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo-block {
+       display: flex;
+       left: 10px;
+    }
+
+    .search-block {
+        width: 100%;
+        margin: 15px 0px;
+    }
+    
+    /* .ft-perfil {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 35px; 
+    } */
+
+    .cadastro {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 35px;
+    }
+
+    .logo-block {
+        display: flex;
+        left: 10px;
+        margin: 0;
+    }
+
+    .search {
+        display:flex;
+        align-items: center;
+        margin: 10px;
+        bottom: 20px;
+        width: 100%;
+    }
+
+    .sub-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

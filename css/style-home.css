@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #0f0316;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* header {
+    height: 50vh;
+    width: 100%;
+} */
+
+
+/* Banner */
+.banner {
+
+    height: 80%;
+    width: 100vw;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* Sobre a loja */
+
+.sobre {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    height: 460px;
+}
+
+.sobre-text {
+    padding: 80px;
+    color: #fff;
+    text-align: justify;
+    width: 40%;
+}
+
+.main-title {
+    font-size: 350%;
+    color: #A164C7;
+    margin-bottom: 20px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* .transition {
+    transition: all 0.3s ease-in-out;
+}
+
+.transition:hover{
+    margin-left: 60px;
+    transform: scale(1.2);
+} */
+
+.title {
+    font-family: 'Fredoka One', cursive;
+}
+
+.sub-title {
+    font-size: 20px;
+    width: 100%;
+}
+
+.c-sub {
+    color: #b86cff;
+    text-shadow: 0 4px 8px 0 rgba(216, 176, 255, 0.2), 0 6px 20px 0 rgba(194, 163, 255, 0.19);
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* Conteúdo principal da pagina */
+.margin-top-5 {
+    margin-top: 5%;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.main-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    height: auto !important;
+}
+
+.main-content > h1{
+    color: white;
+    margin-left: 10%;
+}
+
+.title-block {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.feature {
+
+    height: 7px;
+    width: 80px;
+
+    background-color: #A164C7;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(201, 148, 254, 0.2), 0 7px 20px 0 rgba(175, 134, 255, 0.19);
+}
+
+.feature-margin {
+    margin-left: 10%;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+    padding: 20px;
+    margin: 30px;
+
+    background-color: #141414;
+    color: white;
+
+    border-radius: 10px;
+    /* height: 35%; */
+    width: 30%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transition: all 0.3s ease-in-out; */
+
+}
+
+.card:hover{
+    border: 1px solid #8A2BE2;
+    box-sizing: border-box;
+    /* transform: scale(1.08); */
+}
+
+.card-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-img {
+
+    display: flex;
+    overflow: hidden;
+    height: 25%;
+    width: 80%;
+    background-color: #A164C7;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.img-prod {
+    border-radius:10px;
+}
+
+.card > h1 {
+    margin-top: 10%;
+}
+
+.card > p {
+    margin-bottom: 10%;
+}
+
+.button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+    height: 10%;
+    width: 100%;
+
+    background-color: #A164C7;
+    color: white;
+
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 0 4px 8px 0 rgba(201, 148, 254, 0.2), 0 6px 20px 0 rgba(175, 134, 255, 0.19);
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .sobre-text {
+        width: 100%;
+        margin: -140px;
+    }
+
+    .sobre-img > img {
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .main-content  {
+        margin: 100px;
+        margin-top:-13px;
+        margin-bottom: 8px;
+    }
+
+    .card-section {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 40px;
+    }
+
+    .sub-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: justify;
+
+    }
+
+    .main-title {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+
+}

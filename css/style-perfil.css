@@ -1,0 +1,115 @@
+body {
+    overflow-x: hidden;
+}
+
+.main-content {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.entrega {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+.icon-entrega {
+    display: flex;
+    height: 110px;
+    width: 117px;
+    background-color: #A164C7;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.perfil {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    overflow: hidden;
+}
+
+.ft-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ft-icon-perfil {
+    height: 90px;
+    width: 90px;
+    background-color:  #141414;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.ft-icon-perfil > img {
+    height: 90px;
+    width: 90px;
+    margin: 0px 0px 0px 0px;
+    object-fit: cover;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    margin-top: 70px;
+    background-color: #141414;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.icon-entrega {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.perfil-item {
+    color: #A164C7;
+}
+
+.sub-title {
+    margin: 5px;
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+
+}
+
+@media (max-width:768px) {
+    .entrega {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .config {
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
