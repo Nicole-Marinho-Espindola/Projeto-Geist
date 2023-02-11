@@ -1,6 +1,6 @@
 <?php
 session_start();
-$logged_user = $_SESSION['logged_user'];
+$logged_user = !empty($_SESSION['logged_user']) ? $_SESSION['logged_user'] : null;
 ?>
 
 
@@ -46,8 +46,8 @@ $logged_user = $_SESSION['logged_user'];
 
                     <div class="cadastro">
 
-                        <a href="index-login.php">Entrar</a>
-                        <a class="btn-nav" href="index-cadastro.php">CADASTRO</a>
+                        <a class="a-style" href="index-login.php">Entrar</a>
+                        <a class="btn-nav a-style" href="index-cadastro.php">Cadastro</a>
                     </div>
 
                 <?php } else { ?>
@@ -69,7 +69,7 @@ $logged_user = $_SESSION['logged_user'];
 
             </section>
 
-            <section class="sub-navbar">
+            <!-- <section class="sub-navbar">
 
                 <p><a href="index-home.php">INÍCIO</a></p>
 
@@ -79,4 +79,4 @@ $logged_user = $_SESSION['logged_user'];
 
                 <p><a href="faleConosco.php">FALE CONOSCO</a></p>
 
-            </section>
+            </section> -->
