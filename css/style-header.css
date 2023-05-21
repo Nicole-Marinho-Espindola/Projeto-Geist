@@ -127,6 +127,15 @@
     align-items: center;
 }
 
+.sub-navbar p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-navbar p a:hover{
+    color: #9e73e9;
+}
+
 
 @media (max-width: 768px){
     .nav-bar {
