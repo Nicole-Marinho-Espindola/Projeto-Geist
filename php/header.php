@@ -69,7 +69,7 @@ $logged_user = !empty($_SESSION['logged_user']) ? $_SESSION['logged_user'] : nul
 
             </section>
 
-            <!-- <section class="sub-navbar">
+            <section class="sub-navbar">
 
                 <p><a href="index-home.php">INÍCIO</a></p>
 
@@ -79,4 +79,4 @@ $logged_user = !empty($_SESSION['logged_user']) ? $_SESSION['logged_user'] : nul
 
                 <p><a href="faleConosco.php">FALE CONOSCO</a></p>
 
-            </section> -->
+            </section>

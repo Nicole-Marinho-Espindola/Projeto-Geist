@@ -108,7 +108,7 @@
     margin-left: 20%;
 }
 
-/* .sub-navbar {
+.sub-navbar {
 
     display: flex;
     padding: 20px 30%;
@@ -118,14 +118,14 @@
     background-color: #141414;
 
     font-size: small;
-} */
+}
 
-/* .sub-navbar p {
+.sub-navbar p {
     margin-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 
 @media (max-width: 768px){
